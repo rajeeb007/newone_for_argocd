@@ -10,7 +10,7 @@ spec:
   source: 
     repoURL: https://github.com/rajeeb007/newone_for_argocd.git
     targetRevision: HEAD
-    path: dev
+    path: newone
   destination:
     server: https://kubernetes.default.svc
     namespace: newone1
